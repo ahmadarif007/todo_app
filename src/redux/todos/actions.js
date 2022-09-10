@@ -40,7 +40,7 @@ export const deleted = (todoId) => {
 
 export const allcompleted = () => {
   return {
-    type: DELETED,
+    type: ALLCOMPLETED,
   };
 };
 
