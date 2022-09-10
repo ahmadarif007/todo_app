@@ -1,4 +1,4 @@
-export default initialState = [
+const initialState = [
   {
     id: 1,
     text: "Learn React JS",
@@ -11,3 +11,5 @@ export default initialState = [
     color: "red",
   },
 ];
+
+export default initialState;
