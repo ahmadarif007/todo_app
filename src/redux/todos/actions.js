@@ -38,13 +38,13 @@ export const deleted = (todoId) => {
   };
 };
 
-export const allcompleted = () => {
+export const allCompleted = () => {
   return {
     type: ALLCOMPLETED,
   };
 };
 
-export const clearcompleted = () => {
+export const clearCompleted = () => {
   return {
     type: CLEARCOMPLETED,
   };
